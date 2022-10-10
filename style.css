@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap');
+
+body{
+    font-family: 'Inter';
+}
+
+#hex-code{
+    font-size: 24px;
+    font-weight: bold;
+    color: #121212;
+    margin: 0;
+    padding-right: 10px;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    opacity: 90%;
+}
+
+button:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#generate-btn{
+    font-family: 'Inter';
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #121212;
+    border-radius: 5px;
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#copy-icon{
+    background-color: #12121213;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
